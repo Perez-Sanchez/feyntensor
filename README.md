@@ -3,15 +3,13 @@
 The aim of `feyntensor` is to perform integration for tensors of uniform index size (hypercube-arrays of same size in each
 direction).  Denoting by $D$ the number of indices (writing $T_{a_1,\ldots,a_D}$ for the entries of $T$ and using a bar to denote complex conjugation) all ranging  from $1$ to some integer denoted by $N$,  `feyntensor` yields the value of
 
-$$
-\int_{\mathbb C^{N^{D} }}  
+$$ \int_{\mathbb C^{N^{D} }}  
 \sum_{a_i,c_i,\ldots,u_i=1}^N & \Big(
 T_{a_1,a_2,\ldots,a_D} \bar  T_{b_1,b_2,\ldots,b_D}  
 T_{c_1,c_2,\ldots,c_D}\bar  T_{d_1,d_2,\ldots,d_D}
 \cdots
 T_{u_1,u_2,\ldots,u_D}\bar  T_{v_1,v_2,\ldots,v_D} \Big)
- \mathrm{d}\mu_N  (T, \bar T) ,  \label{int}
-$$
+ \mathrm{d}\mu_N  (T, \bar T)m  $$
 
 under the conditions that \begin{itemize}
                            \item
